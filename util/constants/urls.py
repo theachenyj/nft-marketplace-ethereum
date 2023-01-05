@@ -23,3 +23,6 @@ url_user_grouping_sales_volume = 'https://node-api.flipsidecrypto.com/api/v2/que
 
 # % of Ethereum NFT traders on Marketplaces
 url_trader_share = 'https://node-api.flipsidecrypto.com/api/v2/queries/708911f6-182b-437e-b71d-4d66bfc7ecb2/data/latest'
+
+# data updated date
+url_last_updated = 'https://node-api.flipsidecrypto.com/api/v2/queries/d64db3c7-8078-417a-b688-aa9fd6203837/data/latest'

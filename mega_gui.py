@@ -6,6 +6,7 @@ from util.pages.looksrare import looksrare_page
 from util.pages.sudoswap import sudoswap_page
 from util.pages.nftx import nftx_page
 from util.pages.rarible import rarible_page
+from util.pages.about import about_page
 
 class MultiApp:
     def __init__(self):
@@ -32,4 +33,6 @@ app.add_app("Looksrare", looksrare_page)
 app.add_app("Sudoswap", sudoswap_page)
 app.add_app("NFTX", nftx_page)
 app.add_app("Rarible", rarible_page)
+app.add_app("About", about_page)
+
 app.run()
